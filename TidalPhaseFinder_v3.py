@@ -1,6 +1,6 @@
 """
 Updated: 2024-02-08 
-3 hours of slack water
+2 hours of slack water
 """
 
 import pandas as pd
