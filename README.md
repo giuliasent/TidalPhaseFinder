@@ -1,5 +1,13 @@
-# TidalPhaseFinder
-TideFinder is a Python script designed to determine the tidal phase and amplitude of a specific timestamp using tide data. The script reads a CSV file containing tide information and calculates the current tide phase (ebbing or flooding), sub-tides (High tide, 3 stages of Ebb tide, 3 stages pf Flood tide), and tide amplitudes.
+# TidalPhaseFinder: python script for labeling of any timestamp for tidal condition
+
+by 
+[Giulia Sent](gsent@ciencias.ulisboa.pt)
+[Bastian Raulier]
+
+Last update 28-05-2024
+
+
+TidalPhaseFinder is a Python script designed to determine the tidal phase and amplitude of a specific timestamp using tide data. The script reads a CSV file containing tide information and calculates the current tide phase (ebbing or flooding), sub-tides (High tide, 3 stages of Ebb tide, 3 stages pf Flood tide), and tide amplitudes.
 
 ###################################################################
 Features
