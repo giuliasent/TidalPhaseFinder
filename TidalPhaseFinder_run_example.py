@@ -2,10 +2,7 @@ from TidalPhaseFinder_v3 import *
 from datetime import datetime
 import pandas as pd
 
-mac_path = "/Users/giuliasent/Library/CloudStorage/OneDrive-UniversidadedeLisboa/FCUL/PhD/"
-linux_path = "/home/giulia/Documents/PhD_Onedrive/"
-
-path = linux_path
+path = "/home/giulia/Documents/PhD_Onedrive/"
 
 filepath = path+"Data/TAGUS/ancillary/LisboaFCUL2016_2023.csv"
 timestamps_file = pd.read_csv(path+"Data/TAGUS/In_situ/compiled_data/Tagus_all_data_compiled.csv", parse_dates=['start_timestamp_utc'], dayfirst=True)
