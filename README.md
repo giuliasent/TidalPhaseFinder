@@ -1,8 +1,7 @@
 # TidalPhaseFinder: python script for labeling of any timestamp for tidal condition
 
 by 
-[Giulia Sent](gsent@ciencias.ulisboa.pt)
-[Bastian Raulier]
+[Giulia Sent](gsent@ciencias.ulisboa.pt) & Bastian Raulier
 
 Last update 28-05-2024
 
