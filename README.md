@@ -30,22 +30,23 @@ Ensure your CSV file has the following columns:
 
 Example of CSV file with tidal information: 
 
- Date,	Time,	Height,	Tide
- 01/01/2016,	01:11:00,	1.54,	Low-tide
- 01/01/2016,	07:41:00,	3.36,	High-tide
- 01/01/2016,	13:50:00,	1.51,	Low-tide
- 01/01/2016,	20:16:00,	3.15,	High-tide
+    Date, Time, Height, Tide
+    01/01/2016,	01:11:00,	1.54,	Low-tide
+    01/01/2016,	07:41:00,	3.36,	High-tide
+    01/01/2016,	13:50:00,	1.51,	Low-tide
+    01/01/2016,	20:16:00,	3.15,	High-tide
+
 
 Example
 
-from tide_finder import TideFinder
+    from tide_finder import TideFinder
 
-time_to_find = '2024-02-08 12:00:00'
-tide_filepath = 'path_to_your_tides_csv_file.csv'
+    time_to_find = '2024-02-08 12:00:00'
+    tide_filepath = 'path_to_your_tides_csv_file.csv'
 
-tide_finder = TideFinder(time_to_find, tide_filepath)
-print(f"Tide type: {tide_finder.tide_type}")
-print(f"Subtide name: {tide_finder.tide.subtide_name}")
-print(f"Amplitude between peaks: {tide_finder.amplitude_between}")
-print(f"Super tide: {tide_finder.super_tide}")
+    tide_finder = TideFinder(time_to_find, tide_filepath)
+    print(f"Tide type: {tide_finder.tide_type}")
+    print(f"Subtide name: {tide_finder.tide.subtide_name}")
+    print(f"Amplitude between peaks: {tide_finder.amplitude_between}")
+    print(f"Super tide: {tide_finder.super_tide}")
 
