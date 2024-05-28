@@ -1,6 +1,6 @@
-"""
+e"""
 Updated: 2024-05-28 
-2 hours of slack water
+2 hours of slack water centered at the time of tidal peak
 """
 
 import pandas as pd
@@ -29,12 +29,10 @@ class Tide:
             else:
                 raise ValueError("Tide type must be either Ebbing, Flooding")
             self.subtides = {}
-        
-
             for i in range(N_subtides):
                 self.subtides[self.subtides_names[i]] = SubTide(self.begin_time + i * self.duration / N_subtides,
                                                             self.begin_time + (i + 1) * self.duration / N_subtides,
-                                                            self.type)
+                                                                self.type)
         except:
             print("Timestamp falls inbetween two subtides")
 
